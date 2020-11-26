@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+main {
+    height: 100%;
+}
+
+body {
+    color: #333333;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h1 {
+    color: #333333;
+    font-family: 'Inter', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: 0.17px;
+    line-height: 44px;
+    margin: 0;
+}
+
+h2 {
+    color: #333333;
+    font-family: 'Inter', sans-serif;
+    font-size: 47px;
+    line-height: 48px;
+    font-weight: 700;
+    letter-spacing: 0.17px;
+    margin: 0;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    font: inherit;
+    padding: 0;
+}
