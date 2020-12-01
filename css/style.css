@@ -44,6 +44,7 @@ h1 {
     font-weight: 600;
     line-height: 55px;
     margin: 0;
+    padding: 0;
 }
 
 h2 {
@@ -53,6 +54,17 @@ h2 {
     line-height: 48px;
     font-weight: 600;
     margin: 0;
+    padding: 0;
+}
+
+h3 {
+    color: #333333;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
 }
 
 button {
@@ -62,4 +74,45 @@ button {
     cursor: pointer;
     font: inherit;
     padding: 0;
+}
+
+/* Navigation */
+
+.main-header {
+    background-color: #ffffff;
+    height: 60px;
+    padding-top: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.header-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.menu-list {
+    display: flex;
+}
+
+.menu-element {
+    margin-right: 32px;
+}
+
+.menu-element a {
+    color: #333333;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.menu-element a:hover {
+    border-bottom: 2px solid #E66733;
 }
