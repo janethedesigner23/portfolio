@@ -45,8 +45,10 @@
     <main class="main">
       <div class="wrapper">
         <section class="intro" id="about">
-          <h1 class="classic-header">Hey</h1>
-          <h1 class="header header-orange">I'm Jane Yakovleva</h1>
+          <div class="headers">
+            <h1 class="header classic-header">Hey</h1>
+            <h1 class="header header-orange">I'm Jane Yakovleva</h1>
+          </div>
 
           <div class="description">
             <div class="profile-image">
@@ -65,8 +67,8 @@
               </p>
               <a
                 href="https://drive.google.com/file/d/1XfTO1JVFV7ES6ozCHe00pX-TH0v5C4x-/view?usp=sharing"
-                class="black-button" target="_blank">Download CV</a>
-              <a href="#contacts" class="orange-button">Contact me</a>
+                class="button black-button" target="_blank">Download CV</a>
+              <a href="#contacts" class="button orange-button">Contact me</a>
             </div>
           </div>
 
@@ -125,7 +127,7 @@
             <div class="skill">
               <h3 class="header header-orange">Tools</h3>
               <ul class="skill-elements">
-                <li>
+                <li class="two-elements">
                   <p class="element-value">
                     Figma, Sketch
                   </p>
@@ -133,7 +135,7 @@
                     main job
                   </p>
                 </li>
-                <li>
+                <li class="two-elements">
                   <p class="element-value">
                     Zeplin
                   </p>
@@ -141,7 +143,7 @@
                     communication with engineers
                   </p>
                 </li>
-                <li>
+                <li class="two-elements">
                   <p class="element-value">
                     InVision
                   </p>
@@ -149,7 +151,7 @@
                     design presentation
                   </p>
                 </li>
-                <li>
+                <li class="two-elements">
                   <p class="element-value">
                     Principle
                   </p>
@@ -157,7 +159,7 @@
                     animation visualisation for developers
                   </p>
                 </li>
-                <li>
+                <li class="two-elements">
                   <p class="element-value">
                     Miro
                   </p>
@@ -165,7 +167,7 @@
                     moodboards
                   </p>
                 </li>
-                <li>
+                <li class="two-elements">
                   <p class="element-value">
                     Trello, Jira
                   </p>
@@ -173,7 +175,7 @@
                     task tracking
                   </p>
                 </li>
-                <li>
+                <li class="two-elements">
                   <p class="element-value">
                     Confluence
                   </p>
@@ -181,7 +183,7 @@
                     writing design-requirements
                   </p>
                 </li>
-                <li>
+                <li class="two-elements">
                   <p class="element-value">
                     Adobe PS | AI | Acrobat
                   </p>
@@ -189,7 +191,7 @@
                     other design-tasks
                   </p>
                 </li>
-                <li>
+                <li class="two-elements">
                   <p class="element-value">
                     VS Code
                   </p>
@@ -263,8 +265,9 @@
                   in&nbsp;partner banks and earn up to&nbsp;1%
                   of&nbsp;the&nbsp;loan amount.
                 </p>
-                <a href="ipoteka-center.html" class="orange-button">View</a>
-                <a href="http://ipoteka.center/" target="_blank">Visit website</a>
+                <a href="ipoteka-center.html" class="button orange-button">View</a>
+                <a href="http://ipoteka.center/" class="external-link"
+                  target="_blank">Visit website</a>
               </div>
             </section>
 
@@ -277,9 +280,10 @@
                 </p>
                 <a
                   href="https://www.behance.net/gallery/100057077/Random-task-for-Todoist"
-                  class="orange-button" target="_blank">Case on behance</a>
+                  class="button orange-button" target="_blank">Case on behance</a>
                 <a
                   href="https://janethedesigner23.github.io/random-task-website/"
+                  class="external-link"
                   target="_blank">Visit website</a>
               </div>
               <img src="./img/main page/random.png" alt="Random-task screens"
@@ -298,7 +302,7 @@
                   property in&nbsp;Rosreestr (a federal body) online without
                   having to&nbsp;visit their office themselves.
                 </p>
-                <a href="http://basis.center/" class="orange-button"
+                <a href="http://basis.center/" class="button orange-button"
                   target="_blank">Visit website</a>
               </div>
             </section>
@@ -307,197 +311,209 @@
 
         <section class="experience-list" id="experience">
 
-          <div class="experience-element work">
+          <div class="experience-wrapper">
+            <div class="experience-element work">
 
-            <h2 class="header header-orange">Experience</h2>
+              <h2 class="header header-orange">Experience</h2>
 
-            <div class="job-element">
-              <h3 class="header header-orange">Senior interface designer</h3>
-              <div class="place-dates">
-                <p class="place">CFT Basis</p>
-                <p class="dates">nov 2018 &mdash; sep 2020</p>
-              </div>
-              <ul class="job-description">
-                <li>
-                  <p class="text">
-                    Created design and helped ship Ipoteka.Center,
-                    a&nbsp;platform
-                    for mortgage professionals
-                    where they help their clients get a&nbsp;mortgage
-                    in&nbsp;partner banks;
-                  </p>
-                </li>
-                <li>
-                  <p class="text">
-                    Designed consistent experience for three roles of&nbsp;users
-                    so&nbsp;they can access
-                    the platform on&nbsp;desktop and mobile device;
-                  </p>
-                </li>
-                <li>
-                  <p class="text">
-                    Helped build the design system for Ipoteka.Center
-                    and&nbsp;mentored junior designer,
-                    to&nbsp;whom I&nbsp;later passed my second project;
-                  </p>
-                </li>
-                <li>
-                  <p class="text">
-                    Conducted different types of&nbsp;user testings, surveys,
-                    directly communicated with users
-                    to&nbsp;collect the most detailed feedback and improve their
-                    experience with the platform;
-                  </p>
-                </li>
-                <li>
-                  <div class="projects">
+              <div class="job-element">
+                <h3 class="header header-orange">Senior interface designer</h3>
+                <div class="place-dates">
+                  <p class="place">CFT Basis</p>
+                  <p class="dates">nov 2018 &mdash; sep 2020</p>
+                </div>
+                <ul class="job-description">
+                  <li>
                     <p class="text">
-                      Projects:
+                      Created design and helped ship Ipoteka.Center,
+                      a&nbsp;platform
+                      for mortgage professionals
+                      where they help their clients get a&nbsp;mortgage
+                      in&nbsp;partner banks;
                     </p>
-                    <a href="http://ipoteka.center/" target="_blank">Ipoteka.Center</a>
-                    <a href="https://basis.center/" target="_blank">Basis.Regservice</a>
-                  </div>
-                </li>
-              </ul>
-            </div>
-
-            <div class="job-element">
-              <h3 class="header header-orange">Web designer</h3>
-              <div class="place-dates">
-                <p class="place">Greencow</p>
-                <p class="dates">nov 2017 &mdash; aug 2018</p>
-              </div>
-              <ul class="job-description">
-                <li>
-                  <p class="text">
-                    Designed mobile versions and inner pages of the website;
-                  </p>
-                </li>
-                <li>
-                  <p class="text">
-                    Presented the main idea and storyboard to clients;
-                  </p>
-                </li>
-                <li>
-                  <p class="text">
-                    Created prototypes and wrote texts for websites;
-                  </p>
-                </li>
-                <li>
-                  <p class="text">
-                    I went from being an intern in the studio to a designer of
-                    web
-                    & mobile versions of sites.
-                  </p>
-                </li>
-                <li>
-                  <div class="projects">
+                  </li>
+                  <li>
                     <p class="text">
-                      Projects:
+                      Designed consistent experience for three roles
+                      of&nbsp;users
+                      so&nbsp;they can access
+                      the platform on&nbsp;desktop and mobile device;
                     </p>
-                    <a href="https://transformator.travel/" target="_blank">Transformator.Travel</a>
-                    <a href="https://villagio-city.ru/" target="_blank">Villagio
-                      City</a>
-                    <a href="https://razdory2.ru/" target="_blank">Razdory II</a>
-                  </div>
-                </li>
-              </ul>
-            </div>
-
-          </div>
-
-          <div class="experience-element education">
-
-            <h2 class="header header-orange">Education</h2>
-
-            <div class="job-element">
-              <h3 class="header header-orange">HTML & CSS course</h3>
-              <div class="place-dates">
-                <p class="place">HTML Academy</p>
-                <p class="dates">may 2019 &mdash; jul 2019</p>
+                  </li>
+                  <li>
+                    <p class="text">
+                      Helped build the design system for Ipoteka.Center
+                      and&nbsp;mentored junior designer,
+                      to&nbsp;whom I&nbsp;later passed my second project;
+                    </p>
+                  </li>
+                  <li>
+                    <p class="text">
+                      Conducted different types of&nbsp;user testings, surveys,
+                      directly communicated with users
+                      to&nbsp;collect the most detailed feedback and improve
+                      their
+                      experience with the platform;
+                    </p>
+                  </li>
+                  <li>
+                    <div class="projects">
+                      <p class="text">
+                        Projects:
+                        <a href="http://ipoteka.center/" target="_blank">Ipoteka.Center</a>,
+                        <a href="https://basis.center/" target="_blank">Basis.Regservice</a>
+                      </p>
+                    </div>
+                  </li>
+                </ul>
               </div>
 
-              <p class="text">
-                Programming basics from HTML Academy.
-              </p>
-
-              <a
-                href="https://drive.google.com/file/d/1kCXo2IQzeb2D0RqcMVaoDkHq_6jX27Lv/view?usp=sharing"
-                target="_blank">Certificate</a>
-            </div>
-
-            <div class="job-element">
-              <h3 class="header header-orange">Bureau Design school</h3>
-              <div class="place-dates">
-                <p class="dates">jan 2018 &mdash; jul 2018</p>
+              <div class="job-element">
+                <h3 class="header header-orange">Web designer</h3>
+                <div class="place-dates">
+                  <p class="place">Greencow</p>
+                  <p class="dates">nov 2017 &mdash; aug 2018</p>
+                </div>
+                <ul class="job-description">
+                  <li>
+                    <p class="text">
+                      Designed mobile versions and inner pages of the website;
+                    </p>
+                  </li>
+                  <li>
+                    <p class="text">
+                      Presented the main idea and storyboard to clients;
+                    </p>
+                  </li>
+                  <li>
+                    <p class="text">
+                      Created prototypes and wrote texts for websites;
+                    </p>
+                  </li>
+                  <li>
+                    <p class="text">
+                      I went from being an intern in the studio to a designer of
+                      web & mobile versions of sites.
+                    </p>
+                  </li>
+                  <li>
+                    <div class="projects">
+                      <p class="text">
+                        Projects:
+                        <a href="https://transformator.travel/" target="_blank">Transformator.Travel</a>,
+                        <a href="https://villagio-city.ru/" target="_blank">Villagio
+                          City</a>,
+                        <a href="https://razdory2.ru/" target="_blank">Razdory
+                          II</a>
+                      </p>
+                    </div>
+                  </li>
+                </ul>
               </div>
 
-              <p class="text">
-                Passed two steps of School where I’ve learned interface design,
-                typography, negotiations, basics of text editing and data
-                visualisation.
-              </p>
-
-              <a
-                href="https://drive.google.com/file/d/1kCXo2IQzeb2D0RqcMVaoDkHq_6jX27Lv/view?usp=sharing"
-                target="_blank">Certificate</a>
-
             </div>
 
-            <div class="job-element">
-              <h3 class="header header-orange">Bachelor’s degree in
-                International
-                Relations</h3>
-              <div class="place-dates">
-                <p class="place">Siberian Institute of Management RANEPA</p>
-                <p class="dates">may 2019 &mdash; jul 2019</p>
-              </div>
-            </div>
+            <div class="experience-element education">
 
-          </div>
+              <h2 class="header header-orange">Education</h2>
 
-          <div class="experience-element contests">
+              <div class="job-element">
+                <h3 class="header header-orange">HTML & CSS course</h3>
+                <div class="place-dates">
+                  <p class="place">HTML Academy</p>
+                  <p class="dates">may 2019 &mdash; jul 2019</p>
+                </div>
 
-            <h2 class="header header-orange">Contests</h2>
+                <p class="text">
+                  Programming basics from HTML Academy.
+                </p>
 
-            <div class="job-element">
-              <h3 class="header header-orange">DubsTech’s 2020 Protothon</h3>
-              <div class="place-dates">
-                <p class="dates">may 2020</p>
+                <a
+                  href="https://drive.google.com/file/d/1kCXo2IQzeb2D0RqcMVaoDkHq_6jX27Lv/view?usp=sharing"
+                  target="_blank">Certificate</a>
               </div>
 
-              <p class="text">
-                Took 2nd place in&nbsp;the&nbsp;Mobile Law Enforcement challenge
-                on international
-                design-hackathon with my&nbsp;team of&nbsp;three designers.
-              </p>
+              <div class="job-element">
+                <h3 class="header header-orange">Bureau Design school</h3>
+                <div class="place-dates">
+                  <p class="dates">jan 2018 &mdash; jul 2018</p>
+                </div>
 
-              <a
-                href="https://drive.google.com/file/d/1MVynzSxoxUqm9ZBDr2mWtATH12S7ObV7/view?usp=sharing"
-                target="_blank">Certificate</a>
+                <p class="text">
+                  Passed two steps of School where I’ve learned interface
+                  design, typography, negotiations, basics of text editing and
+                  data
+                  visualisation.
+                </p>
+
+                <a
+                  href="https://drive.google.com/file/d/1kCXo2IQzeb2D0RqcMVaoDkHq_6jX27Lv/view?usp=sharing"
+                  target="_blank">Certificate</a>
+
+              </div>
+
+              <div class="job-element">
+                <h3 class="header header-orange">Bachelor’s degree in
+                  International
+                  Relations</h3>
+                <div class="place-dates">
+                  <p class="place">Siberian Institute of Management RANEPA</p>
+                  <p class="dates">may 2019 &mdash; jul 2019</p>
+                </div>
+              </div>
+
             </div>
 
+            <div class="experience-element contests">
+
+              <h2 class="header header-orange">Contests</h2>
+
+              <div class="job-element">
+                <h3 class="header header-orange">DubsTech’s 2020 Protothon</h3>
+                <div class="place-dates">
+                  <p class="dates">may 2020</p>
+                </div>
+
+                <p class="text">
+                  Took 2nd place in&nbsp;the&nbsp;Mobile Law Enforcement
+                  challenge on international design-hackathon with my&nbsp;team
+                  of&nbsp;three designers.
+                </p>
+
+                <a
+                  href="https://drive.google.com/file/d/1MVynzSxoxUqm9ZBDr2mWtATH12S7ObV7/view?usp=sharing"
+                  target="_blank">Certificate</a>
+              </div>
+
+            </div>
           </div>
 
-        </section>
-
-        <section class="contact-list" id="contacts">
-
-          <h2 class="header header-orange">Let's create something useful
-            together</h2>
-          <div class="contacts-elements">
-            <a href="https://www.linkedin.com/in/evgenia-yakovleva-2300a311a/"
-              target="_blank">LinkedIn</a>
-            <a href="https://www.behance.net/janein2394054d" target="_blank">Behance</a>
-            <a href="https://dribbble.com/EvgeniaIN" target="_blank">Dribbble</a>
-            <a href="https://www.instagram.com/blackeyed_owl/" target="_blank">Instagram</a>
-            <a href="http://t.me/evgeniaIN" target="_blank">Telegram</a>
-            <a href="mailto:janein2394@gmail.com">Email</a>
-          </div>
         </section>
 
       </div>
     </main>
+
+    <footer>
+      <section class="contact-list" id="contacts">
+
+        <div class="contacts-screen-bg">
+          <div class="wrapper">
+            <h2 class="header header-orange">Let's create something useful
+              together</h2>
+            <div class="contacts-elements">
+              <a href="https://www.linkedin.com/in/evgenia-yakovleva-2300a311a/"
+                target="_blank">LinkedIn</a>
+              <a href="https://www.behance.net/janein2394054d" target="_blank">Behance</a>
+              <a href="https://dribbble.com/EvgeniaIN" target="_blank">Dribbble</a>
+              <a href="https://www.instagram.com/blackeyed_owl/"
+                target="_blank">Instagram</a>
+              <a href="http://t.me/evgeniaIN" target="_blank">Telegram</a>
+              <a href="mailto:janein2394@gmail.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
 
   </body>
 
