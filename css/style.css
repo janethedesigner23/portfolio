@@ -76,7 +76,7 @@ button {
 /* Global */
 
 .wrapper {
-    width: 1200px;
+    width: 1240px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -130,7 +130,7 @@ button {
 /* About section */
 
 .headers {
-    margin: 94px 0 64px;
+    margin: 80px 0 56px;
 }
 
 .description {
@@ -140,6 +140,10 @@ button {
 
 .profile-image {
     margin-right: 56px;
+}
+
+.about-me {
+    margin-top: -40px;
 }
 
 .about-me p {
@@ -243,6 +247,7 @@ button {
 
 .portfolio .work-element {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 80px;
 }
@@ -288,10 +293,11 @@ button {
 .experience-wrapper {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .experience-element h2 {
-    margin-bottom: 48px;
+    margin-bottom: 36px;
 }
 
 .job-element {
@@ -305,6 +311,15 @@ button {
 .place-dates {
     display: flex;
     margin-bottom: 16px;
+}
+
+.work .job-description {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.work .job-description li:last-child {
+    list-style: none;
 }
 
 .place-dates .place {
@@ -327,7 +342,7 @@ button {
 
 .job-element .text {
     margin-bottom: 8px;
-    width: 572px;
+    width: 540px;
 
     font-family: 'Inter', sans-serif;
     font-size: 16px;
@@ -374,7 +389,7 @@ button {
 }
 
 .contact-list h1 {
-    margin-bottom: 104px;
+    margin-bottom: 120px;
     width: 508px;
     line-height: 52px;
 }
@@ -386,7 +401,7 @@ button {
 
 .contacts-elements a {
     margin-right: 176px;
-    margin-bottom: 64px;
+    margin-bottom: 72px;
     width: 200px;
     color: #ffffff;
     font-family: 'Inter', sans-serif;
