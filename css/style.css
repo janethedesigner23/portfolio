@@ -282,6 +282,7 @@ button {
 
 .experience-list {
     padding-top: 30px;
+    margin-bottom: 100px;
 }
 
 .experience-wrapper {
@@ -361,7 +362,39 @@ button {
 .contacts-screen-bg {
     background-color: #171717;
     width: 100%;
-    padding-top: 30px;
-    padding-bottom: 60px;
+    padding-top: 100px;
+    padding-bottom: 56px;
     height: 100%;
+}
+
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.contact-list h1 {
+    margin-bottom: 104px;
+    width: 508px;
+    line-height: 52px;
+}
+
+.contacts-elements {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contacts-elements a {
+    margin-right: 176px;
+    margin-bottom: 64px;
+    width: 200px;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+.contacts-elements a:hover {
+    color: #E66733;
 }
