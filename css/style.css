@@ -482,3 +482,87 @@ button {
     line-height: 158%;
     color: #E66733;
 }
+
+.overview {
+    padding-top: 160px;
+    margin-bottom: 80px;
+}
+
+.two-columns {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 44px;
+}
+
+.paragraph {
+    width: 720px;
+    padding-top: 10px;
+}
+
+.paragraph p {
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.with-image {
+    align-items: center;
+    margin-bottom: 56px;
+}
+
+.two-columns .text-part {
+    margin-right: 24px;
+}
+
+.text-part h2 {
+    margin-bottom: 24px;
+}
+
+.text-part p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.image-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-description {
+    padding-top: 12px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #828282;
+}
+
+.one-column {
+    margin-bottom: 80px;
+}
+
+.one-column h3 {
+    margin-bottom: 8px;
+}
+
+.one-column .text-part {
+    width: 710px;
+    margin-bottom: 36px;
+}
+
+.one-column .text-part p {
+    margin-bottom: 12px;
+}
+
+.slider {
+    margin-bottom: 80px;
+}
+
+.outcomes .two-columns {
+    margin-bottom: 104px;
+}
