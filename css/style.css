@@ -413,3 +413,72 @@ button {
 .contacts-elements a:hover {
     color: #E66733;
 }
+
+/* Ipoteka.Center */
+
+.project-wrapper {
+    padding-top: 64px;
+}
+
+.link-to-main {
+    display: flex;
+    align-items: baseline;
+}
+
+.link-to-main p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.arrow-back {
+    margin-right: 16px;
+}
+
+.project-description {
+    padding-top: 80px;
+    display: flex;
+}
+
+.project-image {
+    position: relative;
+}
+
+.hovering-image {
+    position: absolute;
+    top: 110px;
+    right: -40px;
+}
+
+.left-side {
+    margin-right: 20px;
+    margin-top: 64px;
+}
+
+.left-side h1 {
+    margin-bottom: 24px;
+}
+
+.project-page p {
+    width: 468px;
+    margin-bottom: 88px;
+    color: #333333;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.project-dates {
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.area {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 158%;
+    color: #E66733;
+}
