@@ -566,3 +566,74 @@ button {
 .outcomes .two-columns {
     margin-bottom: 104px;
 }
+
+
+/* Slider */
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.small-swiper {
+    width: 708px;
+    height: 418px;
+}
+
+.big-swiper {
+    width: 1200px;
+    height: 666px;
+}
+
+.swiper-wrapper {
+    position: relative;
+}
+
+.swiper-slide {
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    background: yellow;
+
+/* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.button-next, .button-prev {
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.button-next {
+    background: url(../img/ipoteka/chevron_forward.svg) no-repeat 0 0;
+    right: 16px;
+}
+
+.button-prev {
+    background: url(../img/ipoteka/chevron_backward.svg) no-repeat 0 0;
+    left: 16px;
+}
+
+.image-part .swiper-pagination-bullet {
+    width: 6px;
+    height: 6px;
+}
+
+.image-part .swiper-pagination-bullet-active {
+    background-color: #333333;
+}

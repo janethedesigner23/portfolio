@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
       rel="stylesheet">
@@ -122,7 +123,27 @@
 
             <!-- Slider -->
             <div class="image-part">
-              <img src="./img/ipoteka/personal account screens.png" alt="Partner’s personal account screens: deals, credit calculator, deal page" width="708px" height="418px">
+              <div class="swiper-container small-swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="./img/ipoteka/personal account screens.png" alt="Partner’s personal account screens: deals, credit calculator, deal page" width="708px" height="418px">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./img/ipoteka/partner list.png" alt="Partner’s deals list" width="708px" height="418px">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./img/ipoteka/calculator.png" alt="Partner’s credit calculator" width="708px" height="418px">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./img/ipoteka/deal page.png" alt="Partner’s deal page" width="708px" height="418px">
+                  </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="button-next"></div>
+                <div class="button-prev"></div>
+              </div>
               <p class="image-description">
                 Partner’s personal account screens: deals, credit calculator, deal page
               </p>
@@ -143,11 +164,29 @@
 
             <!-- Slider -->
             <div class="image-part">
-              <img src="./img/ipoteka/list Partner.png" alt="Deals list partner, curator, processor" width="1200px" height="666px">
+              <div class="swiper-container big-swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="./img/ipoteka/list Partner.png" alt="Deals list partner" width="1200px" height="666px">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./img/ipoteka/image 31.png" alt="Deals list curator" width="1200px" height="666px">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./img/ipoteka/image 32.png" alt="Deals list processor" width="1200px" height="666px">
+                  </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="button-next"></div>
+                <div class="button-prev"></div>
+              </div>
               <p class="image-description">
                 Deals list partner, curator, processor
               </p>
             </div>
+
           </div>
 
         </section>
@@ -182,7 +221,29 @@
           </div>
           
           <!-- Slider -->
-          <img class="slider" src="./img/ipoteka/colors.png" alt="preview-video" width="1200px" height="auto">
+          <div class="image-part slider">
+            <div class="swiper-container big-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./img/ipoteka/colors.png" alt="Design system" width="1200px" height="666px">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/ipoteka/typography.png" alt="Design system" width="1200px" height="666px">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/ipoteka/buttons.png" alt="Design system" width="1200px" height="666px">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/ipoteka/toasts.png" alt="Design system" width="1200px" height="666px">
+                </div>
+              </div>
+              <!-- Add Pagination -->
+              <div class="swiper-pagination"></div>
+              <!-- Add Arrows -->
+              <div class="button-next"></div>
+              <div class="button-prev"></div>
+            </div>
+          </div>
 
         </section>
 
@@ -202,7 +263,21 @@
 
             <!-- Slider -->
             <div class="image-part">
-              <img src="./img/ipoteka/partner's chat.png" alt="Partner’s chat" width="708px" height="418px">
+              <div class="swiper-container small-swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="./img/ipoteka/partner's chat.png" alt="Partner’s chat" width="708px" height="418px">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./img/ipoteka/big chat.png" alt="Partner’s chat" width="708px" height="418px">
+                  </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="button-next"></div>
+                <div class="button-prev"></div>
+              </div>
               <p class="image-description">
                 Partner’s chat
               </p>
@@ -285,8 +360,8 @@
 
         </section>
 
-
       </div>
+      
     </main>
 
     <footer class="contacts-screen-bg">
@@ -309,5 +384,27 @@
     </footer>
 
   </body>
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      slidesPerGroup: 1,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.button-next',
+        prevEl: '.button-prev',
+      },
+    });
+  </script>
 
 </html>
