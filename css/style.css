@@ -76,7 +76,8 @@ button {
 /* Global */
 
 .wrapper {
-    width: 1240px;
+    width: 100%;
+    max-width: 1240px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -440,6 +441,12 @@ button {
     display: flex;
 }
 
+@media (max-width: 600px) {
+    .project-description {
+        flex-direction: column-reverse;
+    }
+  }
+
 .project-image {
     position: relative;
 }
@@ -505,6 +512,10 @@ button {
     font-size: 16px;
     line-height: 24px;
     color: #333333;
+}
+
+.screencast-video {
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .with-image {
