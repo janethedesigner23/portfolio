@@ -402,6 +402,7 @@ button {
 @media (max-width: 1024px) {
     .contacts-screen-bg {
         padding-top: 56px;
+        height: auto;
     }
 }
 
