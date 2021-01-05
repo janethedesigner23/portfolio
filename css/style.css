@@ -403,6 +403,7 @@ button {
     .contacts-screen-bg {
         padding-top: 56px;
     }
+}
 
 .footer-wrapper {
     display: flex;
@@ -709,7 +710,7 @@ button {
     .slider {
         margin-bottom: 56px;
     }
-  }
+}
 
 
 .outcomes .two-columns {
@@ -734,7 +735,7 @@ button {
         width: 100%;
         height: auto;
     }
-  }
+}
 
 .big-swiper {
     max-width: 1200px;
@@ -746,7 +747,7 @@ button {
         width: 100%;
         height: auto;
     }
-  }
+}
 
 .swiper-wrapper {
     position: relative;
@@ -778,7 +779,7 @@ button {
         width: 100%;
         height: auto;
     }
-  }
+}
 
 .button-next, .button-prev {
     height: 24px;
