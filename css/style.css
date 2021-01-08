@@ -60,7 +60,7 @@ h2 {
     padding: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     h2 {
         font-size: 36px;
         line-height: 44px;
@@ -104,14 +104,13 @@ button {
 
 /* Navigation */
 
-/* .main-header {
-    background-color: #ffffff;
-    height: 60px;
-    padding-top: 20px;
-    position: fixed;
+.main-header {
+    position: sticky;
+    position: -webkit-sticky;
     width: 100%;
     z-index: 100;
-} */
+    top: 0;
+}
 
 .header-box {
     /* position: fixed;
@@ -156,7 +155,7 @@ button {
     height: 56px;
 }
 
-.mobile-menu .contacts {
+.mobile-menu .contacts a {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 18px;
@@ -682,18 +681,25 @@ button {
 
 .hovering-image {
     position: absolute;
-    top: 110px;
+    bottom: -40px;
     right: -40px;
+    max-width: 160px;
 }
 
 @media (max-width: 1024px) {
     .hovering-image {
-        width: 100px;
         height: auto;
-        top: 44px;
-        left: 250px;
+        bottom: -30px;
+        right: -20px;
     }
   }
+
+@media (max-width: 560px) {
+    .hovering-image {
+        max-width: 100px;
+    }
+  }
+
 
 .left-side {
     margin-right: 20px;
@@ -757,7 +763,6 @@ button {
 @media (max-width: 1024px) {
     .two-columns {
         flex-direction: column;
-        margin-bottom: 32px;
     }
   }
 
@@ -795,6 +800,12 @@ button {
     align-items: center;
     margin-bottom: 56px;
 }
+
+@media (max-width: 1024px) {
+    .with-image {
+        align-content: flex-start;
+    }
+  }
 
 .two-columns .text-part {
     margin-right: 24px;
@@ -894,7 +905,6 @@ button {
 
 .small-swiper {
     max-width: 708px;
-    max-height: 418px;
 }
 
 @media (max-width: 1024px) {
@@ -904,13 +914,12 @@ button {
     }
 }
 
-.big-swiper {
+.fullsize-swiper {
     max-width: 1200px;
-    max-height: 666px;
 }
 
 @media (max-width: 1024px) {
-    .big-swiper {
+    .fullsize-swiper {
         width: 100%;
         height: auto;
     }
