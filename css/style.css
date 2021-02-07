@@ -700,6 +700,26 @@ button {
     }
   }
 
+.desktop-hovering-image {
+    position: absolute;
+    bottom: -75px;
+    right: -160px;
+    max-width: 600px;
+} 
+
+@media (max-width: 1024px) {
+    .desktop-hovering-image {
+        width: 100%;
+        bottom: -50px;
+        right: -20px;
+    }
+  }
+
+@media (max-width: 780px) {
+    .desktop-hovering-image {
+        display: none;
+    }
+  }
 
 .left-side {
     margin-right: 20px;
