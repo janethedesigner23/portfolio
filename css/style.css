@@ -916,6 +916,19 @@ button {
 }
 
 
+.methods-list {
+    list-style: disc;
+    padding-left: 18px;
+}
+
+.architecture .header {
+    max-width: 440px;
+}
+
+.architecture .paragraph-one {
+    margin-bottom: 48px;
+}
+
 /* Slider */
 
 .swiper-container {
