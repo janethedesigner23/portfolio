@@ -391,10 +391,16 @@ button {
   }
 
 @media (max-width: 1024px) {
-    .portfolio .random-task {
+    .portfolio .regservice{
         flex-direction: column-reverse;
     }   
   }
+
+@media (max-width: 1024px) {
+.portfolio .ux-case{
+    flex-direction: column-reverse;
+}   
+}
 
 .work-img {
     max-width: 780px;
